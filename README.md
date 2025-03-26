@@ -44,7 +44,7 @@ All project documentation is organized inside the `/docs` folder:
 - Navigation flow diagram
 - Descriptions of each page and UI elements
 - Link to full Uizard prototype
-
+> **Note:** While the wireframes are presented in a mobile-first layout, the system is intended as a responsive web application. All components and layouts are designed to adapt smoothly to desktop and tablet screens as well.
 ---
 
 ## 👨‍💻 Project Contributors
