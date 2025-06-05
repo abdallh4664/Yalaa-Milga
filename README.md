@@ -35,6 +35,49 @@ The name combines the Arabic words **"Yalla"** (let's go) and **"Milga"** (schol
 - ChatGPT & Claude – Content refinement and wireframe generation
 
 ---
+## 🧩 React Page Applications (Structured Screens)
+
+Each page of the Yalaa Milga platform was built as a standalone React application using Vite.  
+This modular structure allows each screen to be developed, tested, and run independently.
+
+### ⚙️ How to Run a Page
+To run any page locally:
+
+```bash
+cd [folder-name]
+npm install
+npm run dev
+The repository includes the following page-specific React apps:
+
+/loginpage
+Login interface with email/password input and Google sign-in option.
+
+/signuppage
+Registration form for new users including name, password confirmation, and terms agreement.
+
+/dashboardpage
+Student homepage showcasing top scholarships and notification previews.
+
+/userprofilepage
+Profile management page allowing users to edit personal info and notification preferences.
+
+/helpsettingspage
+Settings page for language preferences, password change, and access to FAQs.
+
+/scholarshiplistpage
+Dynamic list of scholarships with filters for country, field, amount, type, and deadline.
+
+/scholarshipdetailpage
+Detailed view of a single scholarship including description, criteria, and apply/save buttons.
+
+/adminmaindashboard
+Admin panel to manage student accounts and scholarships.
+
+/adminkpidashboard
+Admin KPI dashboard showing charts and performance analytics (e.g., number of users, applications, deadlines).
+
+🧠 Each folder contains its own src/, index.html, vite.config.js, and package.json files — making it an independently runnable React app.
+---
 
 ## 📂 Documentation
 
