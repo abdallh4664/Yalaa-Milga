@@ -1,92 +1,88 @@
+# 📄 Screens Description – Yalaa Milga
 
-# 📄 Screens and Elements Descriptions – Yalaa Milga
+This document provides a detailed explanation of all main screens and their core UI components.
 
-## 🟢 Login Page
-- **Goal:** Allow students to log in securely using their email and password or via Google.
+---
+
+## 🔐 1. Login Page
+- **Purpose:** Allow registered users to securely log in.
 - **Elements:**
-  - Logo and App Name
-  - Welcome message
   - Email input field
-  - Password input field (with visibility toggle)
-  - Login button
-  - Forgot password link
-  - Login with Google button
+  - Password field (with toggle visibility)
+  - "Login" button
+  - "Forgot Password" link
+  - "Login with Google" option
 
-## 🟢 Sign Up Page
-- **Goal:** Let new users register and provide their academic and personal information.
+---
+
+## 📝 2. Sign Up Page
+- **Purpose:** Enable new users to create an account.
 - **Elements:**
-  - Full name input
-  - Email input
-  - Password + Confirm password
-  - Field of study (dropdown)
-  - Year of study (dropdown)
-  - Preferred language (radio buttons)
-  - Terms & conditions checkbox
-  - Sign up button
+  - Full name, email, password inputs
+  - Confirmation fields
+  - "Sign Up" button
 
-## 🟢 Dashboard (Home Page)
-- **Goal:** Display top recommended scholarships and alerts for the logged-in user.
+---
+
+## 🏠 3. Dashboard (Home Page)
+- **Purpose:** Display personalized scholarship suggestions and alerts.
 - **Elements:**
   - Welcome message
-  - Top scholarship cards
-  - Important notifications
-  - Quick access buttons (Profile, Saved Scholarships, Settings)
-  - Logout button
+  - Top matches preview
+  - Notifications section
+  - Navigation links
 
-## 🟢 Scholarships List Page
-- **Goal:** Allow students to browse all available scholarships with filters.
-- **Elements:**
-  - Page title
-  - Filters (field, country, amount, type, deadline)
-  - Scholarship cards (title, summary, deadline)
-  - View Details button
-  - Pagination or Load more
+---
 
-## 🟢 Scholarship Detail Page
-- **Goal:** Show complete information about a specific scholarship and allow users to apply or save it.
+## 🎓 4. Scholarships List
+- **Purpose:** List all available scholarships with filters.
 - **Elements:**
-  - Scholarship name and provider
-  - Description
-  - Eligibility criteria
-  - Deadline and amount
-  - Field of study
-  - Apply button
-  - Save button
+  - Filter by field, country, funding type
+  - Search bar
+  - Scholarship cards with summary + "View Details" button
 
-## 🟢 User Profile Page
-- **Goal:** Let users view and update their personal and academic info.
-- **Elements:**
-  - Name and email
-  - Field and year of study
-  - Preferred language
-  - Notification preferences
-  - Save changes button
-  - Delete account option
+---
 
-## 🟢 Help & Settings Page
-- **Goal:** Provide support and allow students to customize their settings.
+## 📄 5. Scholarship Detail Page
+- **Purpose:** Provide full information about a selected scholarship.
 - **Elements:**
-  - FAQs (accordion)
-  - Change language
-  - Notification toggles
-  - Privacy settings
-  - Change password
-  - Contact support
+  - Title, description, eligibility, deadline
+  - Buttons: "Save", "Apply"
 
-## 🟢 Admin Dashboard
-- **Goal:** Allow administrators to manage scholarships and student data.
-- **Elements:**
-  - Navigation sidebar
-  - Tables for scholarships and students
-  - Edit/Delete buttons
-  - Add new scholarship button
-  - Access to KPI dashboard
+---
 
-## 🟢 KPI Dashboard
-- **Goal:** Display platform performance data visually for administrators.
+## 👤 6. User Profile Page
+- **Purpose:** Let users view and update their profile data.
 - **Elements:**
-  - Total registered students
-  - Total scholarships posted
-  - Applications submitted
-  - Upcoming deadlines
-  - Charts (bar, line, pie)
+  - Personal info (name, email, interests)
+  - Preferences
+  - Notification settings
+
+---
+
+## ⚙️ 7. Help & Settings Page
+- **Purpose:** Provide help links, FAQ, and general settings.
+- **Elements:**
+  - Language switch
+  - Support/contact
+  - Common questions
+
+---
+
+## 🧑‍💼 8. Admin Dashboard
+- **Purpose:** Manage scholarships and view system activity.
+- **Elements:**
+  - Add/edit/delete scholarships
+  - User activity logs
+
+---
+
+## 📊 9. KPI Dashboard
+- **Purpose:** Display system metrics and insights.
+- **Elements:**
+  - Charts, tables, filters
+  - Visual indicators (graphs, progress bars)
+
+---
+
+📌 All these screens are visually documented in the wireframes inside the `/docs` folder.
