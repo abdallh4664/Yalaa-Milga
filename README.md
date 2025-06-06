@@ -73,7 +73,7 @@ It organizes all main pages, shared files, and configuration components as requi
 > ⚠️ Due to some technical issues encountered during the GitHub upload process, not all files could be pushed correctly in one go. Therefore, each page may need to be reviewed or tested individually through its own folder or previous commits.
 
 To explore the complete folder structure and organization, view the following directory:  
-👉 [FeYalaa-milga](./FeYalaa-milga)
+👉 [FeYalaa-milga/ReactPro](./FeYalaa-milga/ReactPro)
 
 ---
 
